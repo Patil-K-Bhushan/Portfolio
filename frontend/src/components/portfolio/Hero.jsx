@@ -2,7 +2,7 @@ import React from 'react';
 import { Eye, MessageSquare } from 'lucide-react';
 import useTypewriter from '../../hooks/useTypewriter';
 
-const ROLES = ['FULL STACK DEVELOPER', 'SENIOR ENGINEER', 'SYSTEM ARCHITECT'];
+const ROLES = ['Aspiring Software Engineer', 'Frontend Developer', 'React Enthusiast','Problem Solver', 'Tech Explorer', 'Lifelong Learner', 'System Design Enthusiast', 'Full Stack Developer'];
 
 export default function Hero({ data, scrollTo }) {
   const role = useTypewriter(ROLES, 60, 30, 1100);
