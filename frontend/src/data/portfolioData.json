@@ -1,0 +1,168 @@
+{
+  "profile": {
+    "name": "Bhushan Patil",
+    "tag": "CODEX038",
+    "subtitle": "Software Developer | B.E. Computer Engineering, Class of 2027",
+    "roles": ["Software Developer", "React Developer", "Full Stack Developer", "Prompt Engineer"],
+    "bio": "B.E. Computer Engineering student at Mumbai University. Full-stack developer building end-to-end web applications with React, Node.js, Express, and REST APIs, backed by MongoDB and MySQL. Strong in modern JavaScript, authentication, and performance optimizations. Practicing Data Structures & Algorithms in C++ and seeking an SDE internship / entry-level role.",
+    "education": {
+      "degree": "Bachelor of Engineering (B.E.), Computer Engineering",
+      "college": "Bharat College of Engineering, Badlapur",
+      "university": "University of Mumbai",
+      "years": "2023 – 2027",
+      "cgpa": "6.29 / 10"
+    },
+    "stats": {
+      "projects": 3,
+      "experience": 3,
+      "commits": 420
+    },
+    "goals": [
+      "Secure an SDE internship / entry-level developer role",
+      "Master advanced Data Structures & Algorithms in C++",
+      "Scale web applications with React and Redux Toolkit",
+      "Optimize web performance with code splitting, caching, and lazy loading"
+    ],
+    "resumeUrl": "/Bhushan_Patil_Resume.pdf",
+    "social": {
+      "github": "https://github.com/Patil-K-Bhushan",
+      "linkedin": "https://www.linkedin.com/in/Patil-K-Bhushan",
+      "email": "mailto:bpatil.00001@gmail.com"
+    }
+  },
+  "skills": [
+    { "name": "React.js", "level": 90, "rank": "MASTERED", "icon": "Atom", "color": "cyan", "category": "Frontend" },
+    { "name": "JavaScript (ES6+)", "level": 88, "rank": "ADVANCED", "icon": "Braces", "color": "purple", "category": "Languages" },
+    { "name": "Tailwind CSS", "level": 92, "rank": "MASTERED", "icon": "Wind", "color": "blue", "category": "Styling" },
+    { "name": "Redux Toolkit", "level": 85, "rank": "ADVANCED", "icon": "Layers", "color": "purple", "category": "State" },
+    { "name": "HTML5 / CSS3", "level": 95, "rank": "MASTERED", "icon": "FileCode2", "color": "blue", "category": "Markup" },
+    { "name": "C++ / DSA", "level": 80, "rank": "ADVANCED", "icon": "Cpu", "color": "cyan", "category": "CS Core" },
+    { "name": "Node.js / Express", "level": 78, "rank": "PROFICIENT", "icon": "Server", "color": "purple", "category": "Backend" },
+    { "name": "Git / GitHub", "level": 88, "rank": "ADVANCED", "icon": "GitBranch", "color": "pink", "category": "Tools" },
+    { "name": "SQL / Databases", "level": 82, "rank": "ADVANCED", "icon": "Database", "color": "cyan", "category": "Storage" },
+    { "name": "CS Fundamentals", "level": 85, "rank": "ADVANCED", "icon": "BookOpen", "color": "purple", "category": "Fundamentals" }
+  ],
+  "projects": [
+    {
+      "id": "01",
+      "title": "YouTube Clone",
+      "description": "Video streaming platform built on the YouTube Data API v3. Features debounced search, result caching, infinite scrolling, category browsing, and a recursive comment system.",
+      "tags": ["React", "Redux Toolkit", "Tailwind CSS", "REST API"],
+      "icon": "Video",
+      "color": "cyan",
+      "difficulty": 5,
+      "status": "DEPLOYED",
+      "github": "https://github.com/Patil-K-Bhushan",
+      "link": "https://youtube-clone.bpatil-00001.workers.dev/"
+    },
+    {
+      "id": "02",
+      "title": "NetflixGPT",
+      "description": "AI-powered movie recommendation platform calling the OpenAI GPT-3.5 API and TMDB search. Features Firebase Authentication with protected routes and multilingual UI support.",
+      "tags": ["React", "Redux Toolkit", "OpenAI API", "Firebase"],
+      "icon": "Film",
+      "color": "pink",
+      "difficulty": 5,
+      "status": "DEPLOYED",
+      "github": "https://github.com/Patil-K-Bhushan",
+      "link": "https://netflixgpt-98a43.web.app/browse"
+    },
+    {
+      "id": "03",
+      "title": "Food Ordering Platform",
+      "description": "Swiggy-inspired single-page application with centralized cart state, custom hooks, lazy routing, restaurant REST API integration, and shimmer loading states.",
+      "tags": ["React", "Redux Toolkit", "React Router", "CSS3"],
+      "icon": "UtensilsCrossed",
+      "color": "blue",
+      "difficulty": 4,
+      "status": "DEPLOYED",
+      "github": "https://github.com/Patil-K-Bhushan",
+      "link": "https://namaste-food.pages.dev/"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Namaste React",
+      "issuer": "NamasteDev · Akshay Saini",
+      "year": "2026",
+      "rarity": "legendary",
+      "icon": "Trophy",
+      "description": "Completed Namaste React campaign, building production-grade projects like Swiggy Food Ordering SPA.",
+      "certificateUrl": "/NamasteReact_Certificate.webp"
+    },
+    {
+      "title": "Namaste JavaScript",
+      "issuer": "NamasteDev · Akshay Saini",
+      "year": "2026",
+      "rarity": "legendary",
+      "icon": "Code2",
+      "description": "Mastered high-performance JavaScript fundamentals, asynchronous runtimes, scopes, closures, and engines.",
+      "certificateUrl": "/NamasteJavaScript_Certificate.webp"
+    },
+    {
+      "title": "Java Programming",
+      "issuer": "Amar Singh",
+      "year": "2025",
+      "rarity": "epic",
+      "icon": "Coffee",
+      "description": "Acquired comprehensive training in Java, OOP design, and core backend data structures.",
+      "certificateUrl": "/Java_Certificate.jpg"
+    },
+    {
+      "title": "LeetCode Profile",
+      "issuer": "LeetCode · Patil-K-Bhushan",
+      "year": "ACTIVE",
+      "rarity": "epic",
+      "icon": "Cpu",
+      "description": "Solving Data Structures and Algorithms problems in C++ on LeetCode.",
+      "certificateUrl": "https://leetcode.com/u/Patil-K-Bhushan/"
+    }
+  ],
+  "timeline": [
+    {
+      "lvl": "LVL 1",
+      "duration": "2023",
+      "icon": "Gamepad2",
+      "status": "cleared",
+      "role": "Spawn Point",
+      "company": "B.E. COMPUTER ENGINEERING BEGINS",
+      "description": "Enrolled in B.E. Computer Engineering at Mumbai University. Grinding C programming, fundamentals, and logic building."
+    },
+    {
+      "lvl": "LVL 2",
+      "duration": "2024",
+      "icon": "Code2",
+      "status": "cleared",
+      "role": "Skill Unlock",
+      "company": "OOP & JAVA BASICS",
+      "description": "Unlocked OOP, Java Programming, and database systems (MySQL). Started practicing coding challenges."
+    },
+    {
+      "lvl": "LVL 3",
+      "duration": "2025",
+      "icon": "Atom",
+      "status": "cleared",
+      "role": "Main Quest: React.js",
+      "company": "NAMASTE DEV CAMPAIGNS",
+      "description": "Completed Namaste React & JS courses. Shipped the food ordering SPA capstone project on Cloudflare Pages."
+    },
+    {
+      "lvl": "LVL 4",
+      "duration": "2026",
+      "icon": "Brain",
+      "status": "in-progress",
+      "role": "Full-Stack Campaigns",
+      "company": "YOUTUBE CLONE & NETFLIXGPT",
+      "description": "Shipped high-performance AI recommenders (OpenAI GPT-3.5 API) and Video Streaming clones utilizing Redux Toolkit."
+    },
+    {
+      "lvl": "LVL 5",
+      "duration": "2027",
+      "icon": "Crosshair",
+      "status": "locked",
+      "role": "Boss Level",
+      "company": "GRADUATION & SDE DEPLOYMENT",
+      "description": "Goal: Graduate from college with B.E. degree and land an SDE internship / entry-level role."
+    }
+  ]
+}

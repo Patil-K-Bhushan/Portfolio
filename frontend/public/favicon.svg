@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#b16cff" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <polygon points="50,5 95,28 95,72 50,95 5,72 5,28" fill="#04040c" stroke="url(#neonGrad)" stroke-width="4" filter="url(#glow)" />
+  <text x="50" y="62" font-family="'Orbitron', sans-serif" font-weight="900" font-size="34" fill="#00f0ff" text-anchor="middle" letter-spacing="1">BP</text>
+</svg>

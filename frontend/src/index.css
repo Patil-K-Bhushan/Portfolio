@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Orbitron', 'Segoe UI', sans-serif;
+  --font-body: 'Rajdhani', 'Segoe UI', sans-serif;
+  --font-mono: 'Share Tech Mono', 'Courier New', monospace;
+  --color-neon-cyan: #00f0ff;
+  --color-neon-purple: #b16cff;
+  --color-neon-pink: #ff2d78;
+  --color-neon-blue: #4d7cff;
+  --animate-pulse-glow: pulseGlow 1.3s ease-in-out infinite alternate;
+  --animate-node-pulse: nodePulse 2.2s ease-in-out infinite;
+}
+
+.theme-dark {
+  --bg: #04040c;
+  --text: #e8ecff;
+  --border: rgba(0, 240, 255, .15);
+  --surface: rgba(255, 255, 255, .03);
+  --card: rgba(10, 12, 26, .65);
+  --muted: #8b93b5;
+  --bar-track: rgba(255, 255, 255, .07);
+  --gridline: rgba(80, 110, 220, 0.07);
+}
+
+.theme-light {
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --border: rgba(15, 23, 42, .08);
+  --surface: rgba(15, 23, 42, .02);
+  --card: rgba(255, 255, 255, .88);
+  --muted: #64748b;
+  --bar-track: rgba(15, 23, 42, .05);
+  --gridline: rgba(15, 23, 42, 0.04);
+}
+
+@keyframes pulseGlow {
+  0%, 100% { text-shadow: 0 0 14px rgba(0, 240, 255, .5); }
+  50% { text-shadow: 0 0 30px rgba(177, 108, 255, .9); }
+}
+
+@keyframes nodePulse {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(177, 108, 255, .4)); }
+  50% { filter: drop-shadow(0 0 14px rgba(177, 108, 255, .9)); }
+}
