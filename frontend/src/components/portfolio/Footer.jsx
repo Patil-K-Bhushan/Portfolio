@@ -8,7 +8,7 @@ export default function Footer({ showTop, scrollTo }) {
         BP_
       </div>
       <div className="flex justify-center gap-[22px] mb-[22px]">
-        {[['github', 'https://github.com/Patil-K-Bhushan', Github], ['linkedin', 'https://linkedin.com/in/Patil-K-Bhushan', Linkedin]].map(([key, url, Icon]) => (
+        {[['github', 'https://github.com/Patil-K-Bhushan', Github], ['linkedin', 'https://linkedin.com/in/bhushan-k-patil', Linkedin]].map(([key, url, Icon]) => (
           <a key={key} href={url} target="_blank" rel="noreferrer" className="w-[42px] h-[42px] grid place-items-center text-neon-cyan bg-neon-cyan/5 border border-neon-cyan/20 [clip-path:polygon(25%_0,75%_0,100%_50%,75%_100%,25%_100%,0_50%)] hover:shadow-[0_0_12px_rgba(0,240,255,0.4)] transition-all duration-300">
             <Icon size={16} />
           </a>
