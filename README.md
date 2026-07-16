@@ -1,4 +1,4 @@
-# ⚡ Neon Protocol - Gamer Developer Portfolio
+# ⚡Developer Portfolio
 
 A responsive, high-performance developer portfolio styled with Tailwind CSS, featuring a Node.js Express mail backend.
 
