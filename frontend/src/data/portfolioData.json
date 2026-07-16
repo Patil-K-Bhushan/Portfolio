@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Bhushan Patil",
-    "tag": "CODEX038",
+    "tag": "Patil-K-Bhushan",
     "subtitle": "Software Developer | B.E. Computer Engineering, Class of 2027",
     "roles": ["Software Developer", "React Developer", "Full Stack Developer", "Prompt Engineer"],
     "bio": "B.E. Computer Engineering student at Mumbai University. Full-stack developer building end-to-end web applications with React, Node.js, Express, and REST APIs, backed by MongoDB and MySQL. Strong in modern JavaScript, authentication, and performance optimizations. Practicing Data Structures & Algorithms in C++ and seeking an SDE internship / entry-level role.",
@@ -26,7 +26,7 @@
     "resumeUrl": "/Bhushan_Patil_Resume.pdf",
     "social": {
       "github": "https://github.com/Patil-K-Bhushan",
-      "linkedin": "https://www.linkedin.com/in/Patil-K-Bhushan",
+      "linkedin": "https://www.linkedin.com/in/bhushan-k-patil",
       "email": "mailto:bpatil.00001@gmail.com"
     }
   },
