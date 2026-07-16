@@ -6,13 +6,14 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173", // Local development
-  "https://bhushan-patil-portfolio.bpatil-00001.workers.dev/", // Replace with your Cloudflare Pages URL
+  "https://bhushan-patil-portfolio.bpatil-00001.workers.dev", // Cloudflare Pages URL (no trailing slash)
+  "https://bhushan-patil-portfolio.bpatil-00001.workers.dev/", // Cloudflare Pages URL (with trailing slash)
   // "https://yourdomain.com", // Add your custom domain later
 ];
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://bhushan-patil-portfolio.bpatil-00001.workers.dev/"],
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
   }),
 );
@@ -35,6 +36,14 @@ app.post("/api/contact", async (req, res) => {
     return res.status(400).json({
       success: false,
       error: "All fields are required.",
+    });
+  }
+
+  if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+    console.error("Email configuration error: EMAIL_USER or EMAIL_PASS is not set.");
+    return res.status(500).json({
+      success: false,
+      error: "Email credentials not configured on the server. Please check environment variables.",
     });
   }
 
@@ -78,11 +87,12 @@ ${message}
       message: "Message sent successfully.",
     });
   } catch (err) {
-    console.error(err);
+    console.error("Nodemailer error:", err);
 
     return res.status(500).json({
       success: false,
       error: "Failed to send message.",
+      details: err.message,
     });
   }
 });
