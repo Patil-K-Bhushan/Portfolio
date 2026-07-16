@@ -56,3 +56,10 @@ app.post('/api/contact', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Backend transmission server active on port ${PORT}`);
 });
+
+app.get("/", (req, res) => {
+  res.json({
+    status: "Backend is running 🚀",
+    message: "Portfolio API is live."
+  });
+});
