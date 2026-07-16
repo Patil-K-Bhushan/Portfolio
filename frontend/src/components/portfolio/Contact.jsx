@@ -39,6 +39,8 @@ export default function Contact({ showToast }) {
         setStatus("success");
         showToast("TRANSMISSION SUCCESSFUL");
       } else {
+        const errorData = await res.json().catch(() => ({}));
+        console.error("Server contact error details:", errorData);
         setStatus("fallback");
         showToast("UPLINK COMPROMISED");
       }
